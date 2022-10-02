@@ -1,0 +1,194 @@
+* {
+   box-sizing: border-box;
+ }
+
+body {
+   font-family: Arial, Helvetica, sans-serif;
+   margin: 0;
+   background-color: #fefbea;
+ }
+
+ .header {
+   padding: 215px;
+   text-align: center;
+   background: #002566;
+   color: white;
+   background-image: url('bilder/OG.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+ }
+
+ .header-home{
+  padding: 215px;
+  text-align: center;
+  background-image: url('bilder/OG.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  color: white;
+ }
+
+ .header h1 {
+   font-size: 40px;
+ }
+
+
+
+ .navbar {
+   overflow: hidden;
+   background-color: #252626;
+   position: sticky;
+   width: 100%;
+   top: 0;
+ }
+
+ .navbar a {
+   float: left;
+   display: block;
+   color: white;
+   text-align: center;
+   padding-left: 10px;
+   text-decoration: none;
+ }
+
+ .navbartxt{
+  float: left;
+   display: block;
+   color: white;
+   text-align: center;
+   text-decoration: none;
+   padding-top: 13px;
+ }
+
+ .navbartxt a{
+  padding-left: 20px;
+ }
+
+ .navbar a.right {
+   float: none;
+ }
+
+ .navbar a:hover {
+   background-color: #252626;
+   color: black;
+ }
+
+ .paragraf{
+  text-align: left;
+ }
+
+ .meny table{
+  display: flex;
+  justify-content: center;
+ }
+
+ .meny table tr td{
+ width: 250px;
+ height: 30px;
+ 
+ }
+
+ .allergener p{
+  display: inline-block;
+}
+ .row { 
+   display: -ms-flexbox; 
+   display: flex;
+   -ms-flex-wrap: wrap;
+   flex-wrap: wrap;
+ }
+
+ .side {
+   -ms-flex: 15%; 
+   flex: 0.5%;
+   background-color: #fefbea;
+   padding: 20px;
+ }
+
+ .main {  
+   -ms-flex: 70%;
+   flex: 70%;
+   background-color: #fefbea;
+   padding: 20px 20px 250px 20px;
+   text-align: center;
+ }
+
+ .main-linker {  
+  -ms-flex: 70%;
+  flex: 70%;
+  background-color: #fefbea;
+  padding: 0.05px 20px 259px 20px;
+}
+
+ .main-center {  
+   -ms-flex: 70%;
+   text-align:center;
+   flex: 70%;
+   background-color: #fefbea;
+   padding: 20px;
+ }
+ .main-home {  
+   -ms-flex: 70%;
+   flex: 70%;
+   background-color: #fefbea;
+   padding: 207px;
+   text-align:center;
+   font-size:30px; 
+   
+ }
+ 
+ .åpning{
+  display: flex;
+  justify-content: center;
+ }
+
+ .åpning table tr td{
+  width: 300px;
+  height: 35px;
+ }
+ 
+
+ .footer {
+   padding: 20px;
+   text-align: center;
+   background: #252626;
+   color: white;
+   
+ }
+ #footer_tekst1{
+ text-align: left;
+ font-family: sans-serif;
+ }
+ 
+
+
+.sidenav {
+    
+    position: sticky;
+    top: 319px;
+    left: 10px;
+    bottom: 11%;
+    background: #ffffff;
+    overflow-x: hidden;
+    padding: 8px 0px;
+	  border-style: solid;
+    border-width: 3px;
+    border-left-width: 3px;
+    border-right-width: 3px;
+    border-color: darkgray;
+    margin: 0px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 6px 3px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #2196F3;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: #064579;
+  }
+  
